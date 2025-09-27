@@ -20,7 +20,7 @@ struct Cli {
     #[arg(short = 'e', long, default_value_t = 65535)]
     end_port: u16,
 
-    /// The number of concurrent threads to use for scanning
+    /// The number of concurrent threads to use for scanningc
     #[arg(short = 'j', long, default_value_t = 200)]
     threads: u16,
 }
